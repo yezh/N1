@@ -24,4 +24,4 @@ git clone https://github.com/cloudysky9/luci-theme-rosy.git package/lean/luci-th
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/lean/openwrt-passwall
 #git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/luci-app-jd-dailybonus
 git clone https://github.com/vernesong/OpenClash.git package/lean/OpenClash
-git clone https://github.com/frainzy1477/luci-app-clash.git package/leanluci-app-clash
+#git clone https://github.com/frainzy1477/luci-app-clash.git package/leanluci-app-clash
