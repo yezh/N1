@@ -20,7 +20,7 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 # package
 git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/lua-maxminddb
 git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-vssr
-git clone https://github.com/rosywrt/luci-theme-rosy.git package/lean/luci-theme-rosy
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/lean/openwrt-passwall
-#git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/luci-app-jd-dailybonus
+git clone https://github.com/rosywrt/luci-theme-rosy.git package/lean/luci-theme-rosy
 git clone https://github.com/vernesong/OpenClash.git package/lean/OpenClash
+#git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/luci-app-jd-dailybonus
