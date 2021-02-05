@@ -23,4 +23,6 @@ git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-v
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/lean/openwrt-passwall
 git clone https://github.com/rosywrt/luci-theme-rosy.git package/lean/luci-theme-rosy
 git clone https://github.com/vernesong/OpenClash.git package/lean/OpenClash
+rm -rf package/lean/luci-theme-argon
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 #git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/luci-app-jd-dailybonus
