@@ -19,11 +19,11 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 #sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 # 扩充插件包
 git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
-#git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
-#git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
+git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
+git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
 git clone https://github.com/rosywrt/luci-theme-rosy.git package/luci-theme-rosy
-#git clone https://github.com/vernesong/OpenClash.git package/OpenClash
+git clone https://github.com/vernesong/OpenClash.git package/OpenClash
 rm -rf package/lean/luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
 git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
-#git clone https://github.com/lisaac/luci-app-dockerman.git package/luci-app-dockerman
+git clone https://github.com/lisaac/luci-app-dockerman.git package/luci-app-dockerman
