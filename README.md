@@ -8,7 +8,7 @@ Build OpenWrt using GitHub Actions
 
 [Read the details in my blog (in Chinese) | 中文教程](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
 
-本项目只有编译后的N1源码，N1的最新固件img到我自己的另一个项目去下载[N1打包](https://github.com/myvmiao/N1dabao)
+本项目只是编译N1的openwrt，N1的最新固件（img）到我自己的另一个项目去下载[N1打包](https://github.com/myvmiao/N1dabao)
 
 ## Usage
 
