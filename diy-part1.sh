@@ -19,7 +19,7 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 #sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 sed -i '$a src-git ddnsto https://github.com/linkease/nas-packages' feeds.conf.default
 
-./scripts/feeds update -a && ./scripts/feeds install -a
+./scripts/feeds update nas && ./scripts/feeds install -a -p nas
 
 # 扩充插件包
 git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
