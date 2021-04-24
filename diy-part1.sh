@@ -30,3 +30,6 @@ git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luc
 git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
 #git clone https://github.com/lisaac/luci-app-dockerman.git package/luci-app-dockerman
 git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
+
+./scripts/feeds update -a
+./scripts/feeds install -a
