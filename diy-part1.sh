@@ -17,9 +17,9 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 #sed -i '$a src-git kenzok https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 #sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
-sed -i '$a src-git ddnsto https://github.com/linkease/nas-packages' feeds.conf.default
+#sed -i '$a src-git ddnsto https://github.com/linkease/nas-packages' feeds.conf.default
 
-./scripts/feeds update nas && ./scripts/feeds install -a -p nas
+#./scripts/feeds update nas && ./scripts/feeds install -a -p nas
 
 # 扩充插件包
 git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
