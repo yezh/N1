@@ -19,7 +19,7 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 #sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 
 # 扩充插件包
-#svn co https://github.com/Lienol/tcping package/tcping
+#svn co https://github.com/Lienol/tcping package/tcping package/tcping
 git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
 git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
