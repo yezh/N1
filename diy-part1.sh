@@ -32,5 +32,5 @@ git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-ap
 git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
 git clone hhttps://github.com/brvphoenix/luci-app-wrtbwmon.git package/luci-app-wrtbwmon
 
-#./scripts/feeds update -a
-#./scripts/feeds install -a
+./scripts/feeds update -a
+./scripts/feeds install -a
