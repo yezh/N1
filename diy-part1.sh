@@ -17,6 +17,7 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 #sed -i '$a src-git kenzok https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 #sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
+sed -i '$a src-git node https://github.com/nxhack/openwrt-node-packages' feeds.conf.default
 
 # 扩充插件包
 #svn co https://github.com/Lienol/tcping package/tcping package/tcping
