@@ -20,7 +20,6 @@ sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 sed -i '$a src-git node https://github.com/nxhack/openwrt-node-packages' feeds.conf.default
 sed -i '$a src-git weifuture https://github.com/hongweifuture/openwrt-packages' feeds.conf.default
 sed -i '$a src-git pwdep https://github.com/hongweifuture/pwdep.git' feeds.conf.default
-sed -i '$a src-git luci https://github.com/openwrt/luci.git' feeds.conf.default
 
 
 # 扩充插件包
