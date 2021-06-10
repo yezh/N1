@@ -38,5 +38,5 @@ git clone https://github.com/brvphoenix/wrtbwmon.git package/wrtbwmon
 git clone https://github.com/brvphoenix/luci-app-wrtbwmon.git package/luci-app-wrtbwmon
 git clone https://github.com/nodejs/node.git package/node
 git clone https://github.com/stonegr/luci-app-samba.git package/luci-app-samba
-#./scripts/feeds update -a
-#./scripts/feeds install -a
+./scripts/feeds update -a
+./scripts/feeds install -a
